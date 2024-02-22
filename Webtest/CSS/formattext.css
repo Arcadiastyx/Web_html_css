@@ -1,0 +1,58 @@
+p
+{
+	color: black;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+div
+{
+	font-weight: bold;
+}
+
+h1
+{
+	text-align: center;
+}
+	
+.flottant
+{
+	float: right;
+}
+
+.flottant
+{
+	width: 130px;
+	height: 135px;
+}
+
+.flottant
+{
+	border: 3px #40E0D0 double;
+	border-radius: 5px;
+}
+
+.bg-image
+{
+	background: #B0E0E6;
+	background-image: url("../images/pexels-miguel-á-padriñán-255379.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	
+}
+
+body
+{
+	border-top: 2px #6d8000 groove;
+	border-right: 2px #6d8000 groove ;
+	border-bottom: 2px black groove;
+	border-left: 2px black groove;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px black;
+}
+

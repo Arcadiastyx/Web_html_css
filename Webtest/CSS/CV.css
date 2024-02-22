@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.backG{
+    background-position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+
+}
+
+#tribute-info{
+    background-image: url(../images/306544-Razer-Digital-Art-Colorful-Abstract-4K.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.main-timeline {
+  
+    position: relative;
+    margin: 2rem auto;
+    padding: 20px 0;
+    width: 1000px;
+    /*background-color: rgba(243, 243, 243, 0.521);*/
+    border-radius: 30px;
+    border-color: #fff;
+    
+}
+/*title ISAAC NARANJO */
+.main-timeline .timeline-title h2{
+    padding: 0 250px;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    color: rgb(201, 245, 81);
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+    typing 3s steps(30, end),
+    blink-caret .6s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:rgb(236, 153, 167) }
+
+}
+ 
+.main-timeline .timeline {
+    position: relative;
+    margin: 20px auto;
+    padding:0;
+    width: 1000px; 
+    border-radius: 10px;
+}
+
+.main-timeline .timeline:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: rgb(30, 0, 139);
+    
+}
+
+.main-timeline .timeline ul {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.main-timeline .timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    
+}
+
+.main-timeline .timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+
+.main-timeline .timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+
+.main-timeline .content{
+    padding-bottom: 23px;
+}
+
+/*barre du milleux avec point*/
+.timeline ul li:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #322a6d;
+    box-shadow: 0 0 0 3px  #443a94b4;
+    
+}
+/*barre du milieux avec boule*/
+.main-timeline .timeline ul li:nth-child(even):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #322a6d;
+    box-shadow: 0 0 0 3px  #443a94b4;
+    
+}
+
+/*first title for the Paragraph*/
+.main-timeline .timeline ul li h3 {
+    /*margin: 0 100px 0;*/
+    padding: 0;
+    font-weight: 600;
+    color: #e3ec67;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: -29px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+/*texte en P*/
+.main-timeline .timeline ul li p {
+    margin: 15px 100px 0;
+    padding: 0;
+    color: #f1f1f1;
+    font-size: 28px;
+    font-weight: 450;
+    font-family: serif; 
+}
+
+.main-timeline .timeline ul li .time h4 {
+    margin: 0;
+    padding: 0;
+    /* font-size: 20px; */
+}
+
+/* boule ovale droite, work in progress*/
+
+.main-timeline .timeline ul li:nth-child(odd) .time{
+  text-decoration:none;
+  position:absolute;
+  font-size:20px;
+  color:#fff;
+  top:12px;
+  right: -160px;
+  transform:translate(70%,-10%);
+  width:130px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  box-sizing:border-box;
+  background:linear-gradient(300deg,#3a0cb6,#f441a5,#0c394e);
+  background-size:350%;
+  border-radius:20px;
+  box-shadow: 0 0 5px black;
+  z-index:1;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+
+.main-timeline .timeline ul li:nth-child(even) .time{
+    /*position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: #322a6d;
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 0 3px  #443a94b4;*/
+    text-decoration:none;
+  position:absolute;
+  font-size:20px;
+  color:#fff;
+  top:12px;
+  right: -160px;
+  transform:translate(-600%,-10%);
+  width:130px;
+  height:50px;
+  line-height:50px;
+  text-align:center;
+  box-sizing:border-box;
+  background:linear-gradient(300deg,#3a0cb6,#f441a5,#0c394e);
+  background-size:350%;
+  border-radius:20px;
+  box-shadow: 0 0 5px black;
+  z-index:1;
+  opacity: 1;
+  cursor: pointer;
+}
+
+/*work in progess*/
+.main-timeline .timeline ul li:nth-child(odd) .time:hover .box{
+    
+    width:130px;
+    height:50px;
+    background-color: #c8ff00;
+    display: block;
+}
+.main-timeline .timeline ul li:nth-child(even) .time:hover{
+    font-size: 100px;
+}
+
+
+
+@media (max-width:1200px){
+    .main-timeline {
+        width: 900px;
+    }
+    .main-timeline .timeline{
+        width:100%;
+
+    }
+}
+
+@media (max-width:1000px){
+    .main-timeline {
+        width: 700px;
+    }
+    .main-timeline .timeline{
+        width:100%;
+    }
+}
+@media (max-width:767px){
+    
+    .main-timeline {
+        width: 500px;
+    }
+    .main-timeline .timeline{
+        width:100%;
+      
+    }
+
+    .main-timeline .timeline-title h2{
+        padding: 0 10px ;
+        font-size: 50px;
+        font-weight: bold;
+        margin: 0 ;
+        color: #322a6d;
+    }
+    .main-timeline .timeline:before{
+        left: 20px;
+        height: 99%;
+    }
+    .main-timeline .timeline ul li:nth-child(odd),
+    .main-timeline .timeline ul li:nth-child(even)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .main-timeline .timeline ul li:nth-child(odd):before,
+    .main-timeline .timeline ul li:nth-child(even):before
+    {
+        top: 15px;
+        left: 16px;
+    }
+    .main-timeline .timeline ul li:nth-child(odd) .time,
+    .main-timeline .timeline ul li:nth-child(even) .time
+    {
+        top: 3px;
+        left: 38px;
+        right: inherit;
+    }
+}
